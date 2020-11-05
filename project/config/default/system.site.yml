@@ -1,0 +1,14 @@
+uuid: e5fbe9aa-e5c2-44d4-b2c4-32d618ccb553
+name: 'Tematización en D9'
+mail: info@tanren.cr
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

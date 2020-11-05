@@ -1,0 +1,8 @@
+name: Demo
+type: theme
+description: Un demo para Drupal 9
+base theme: classy
+core_version_requirement: ^8.7.7 || ^9.0
+
+libraries:
+  - demo/demo

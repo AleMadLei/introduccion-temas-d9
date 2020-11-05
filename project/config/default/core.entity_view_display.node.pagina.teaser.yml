@@ -1,0 +1,32 @@
+uuid: 2bf5702e-03f8-4bc3-a82a-b7684aa8d238
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pagina.body
+    - field.field.node.pagina.field_imagen
+    - node.type.pagina
+  module:
+    - text
+    - user
+id: node.pagina.teaser
+targetEntityType: node
+bundle: pagina
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_imagen: true

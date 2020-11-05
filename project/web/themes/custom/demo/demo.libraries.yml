@@ -1,0 +1,15 @@
+demo:
+  css:
+    theme:
+      css/demo.css: {}
+  js:
+    js/demo.js: {}
+
+slick:
+  css:
+    theme:
+      https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css: {type: external, minified: true}
+      https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css: {type: external, minified: true}
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js: { type: external, minified: true }
+

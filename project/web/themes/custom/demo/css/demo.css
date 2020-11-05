@@ -1,0 +1,10 @@
+.view-listado  {
+  border: 1px solid red;
+  clear: both;
+  float: right;
+  padding: 2rem;
+  position: fixed;
+  right: 2rem;
+  width: 400px;
+  z-index: 10;
+}

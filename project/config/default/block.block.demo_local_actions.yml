@@ -1,13 +1,13 @@
-uuid: 078e75bd-f17d-4765-9af8-e906fecd0b99
+uuid: c7db6216-065d-4a91-be12-38d9aba7f85f
 langcode: en
 status: true
 dependencies:
   theme:
-    - stark
+    - demo
 _core:
-  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
-id: stark_local_actions
-theme: stark
+  default_config_hash: osZQ9lL2jTdH5am4LJiZ29RaivhzOf6vCpoRy6FZwIE
+id: demo_local_actions
+theme: demo
 region: content
 weight: -10
 provider: null

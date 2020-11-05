@@ -1,15 +1,15 @@
-uuid: 98b7cdd9-e4b5-4927-9d0e-bc8c00f0e39a
+uuid: 2a81189e-f708-4b98-acb3-402b60db97b3
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - stark
+    - demo
 _core:
-  default_config_hash: 5MNdk3fpMKx_xxBTcz2T11DL4XEU1H5SgHl8BsYdFsA
-id: stark_messages
-theme: stark
+  default_config_hash: iIy-YIc9d9s1isAtTIKWDBKd6kd2r6LxoYz_-hkLJco
+id: demo_messages
+theme: demo
 region: highlighted
 weight: 0
 provider: null

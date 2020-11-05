@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the Stable theme.
+ */
+
+function demo_preprocess_node(&$variables) {
+
+  $variables['mi_variable'] = 'Soy un valor';
+  $variables['content']['#attached']['library'][] = 'demo/slick';
+
+}

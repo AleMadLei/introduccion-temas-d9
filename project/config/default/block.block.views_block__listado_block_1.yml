@@ -1,0 +1,24 @@
+uuid: 1bc1784a-f92b-4290-9f35-8353d5dbae0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.listado
+  module:
+    - views
+  theme:
+    - demo
+id: views_block__listado_block_1
+theme: demo
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:listado-block_1'
+settings:
+  id: 'views_block:listado-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

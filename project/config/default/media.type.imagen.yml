@@ -1,0 +1,13 @@
+uuid: c8619132-d0be-423d-8b4b-a325e09b823f
+langcode: en
+status: true
+dependencies: {  }
+id: imagen
+label: Imagen
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map: {  }
